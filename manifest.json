@@ -17,5 +17,8 @@
 	"19": "icon_19.png"
 	},
 	"default_title": ""
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'wasm-unsafe-eval'; object-src 'wasm-unsafe-eval'; worker-src 'wasm-unsafe-eval';"
   }
 }
